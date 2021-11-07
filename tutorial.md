@@ -1,4 +1,4 @@
-# Creating a Mayhem Account
+# Lab 1: Your first run. 
 
 ## Let's get started!
 
@@ -11,12 +11,13 @@ Click the **Start** button to move to the next step.
 
 ## Create a Mayhem account
 
-The first thing you need to do is create a Mayhem account. We have set up
-[training.forallsecure.com] for running through the tutorials.  
+The first thing you need to do is create a Mayhem account. Navigate to 
+[training.forallsecure.com](https://training.forallsecure.com) and either choose:
+   * Google account: Use your Google account on Mayhem
+   * "Sign up": Create a local account on the Mayhem instance. 
 
-  * Click on the "Sign up" button.
-  * Choose either to use your Google account (SSO), or create a *local account*
-    on the Mayhem server. 
+![Mayhem Account Creation](/assets/images/account-creation.png)
+
     
     
 
