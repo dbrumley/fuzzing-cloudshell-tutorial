@@ -54,3 +54,9 @@ Navigate to the "Advanced" tab, and set two advanced options for this run:
 Click the start run button at the bottom of your screen to begin analysis!
 
 ![Click start run](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/start-run-button.png)
+
+## Congratulations
+
+<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
+
+You've just replayed your first exploit.
