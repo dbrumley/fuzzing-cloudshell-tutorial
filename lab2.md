@@ -111,9 +111,8 @@ docker ps -a
 
 ## Challenge: run docker with the corpus mounted
 
-Now for your challenge: run docker in interactive mode with the 
-corpus mounted.  To do so, you'll need a couple of other CLI
-options:
+**Challenge:** run docker in interactive mode with the corpus mounted under
+`/mnt`. To do so, you'll need a couple of other CLI options:
 
   * The `-it` option runs docker in interactive mode with a user-given
     command. For example:
