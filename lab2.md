@@ -35,7 +35,7 @@ a folder that already has a `Mayhemfile`.
 Docker is a lightweight container, which is like a virtual 
 machine but at the UNIX process level. 
 
-![Docker vs VM](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/docker-vs-vm.png)
+![Docker vs VM](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/docker-vs-vm.jpeg)
 
 While a full docker tutorial is out of scope here, we show you here some basic
 nuts and bolts. We recommend you take some time to read the Docker
