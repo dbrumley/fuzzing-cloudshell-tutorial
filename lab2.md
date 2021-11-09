@@ -89,7 +89,7 @@ docker  run -it training.forallsecure.com:5000/forallsecure/tutorial/lighttpd ba
 ```
   * The `-v` flag will mount the local file system. For example:
 ```
-docker  run -v `pwd`/corpus:/mnt -it training.forallsecure.com:5000/forallsecure/tutorial/lighttpd bash
+docker  run -v /tmp/lighttpd/corpus:/mnt -it training.forallsecure.com:5000/forallsecure/tutorial/lighttpd bash
 ```
 
 
