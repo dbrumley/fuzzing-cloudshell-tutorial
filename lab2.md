@@ -24,7 +24,7 @@ You download results using the `mayhem download` command, specifying an output
 directory with `-o`.  
 
 ```
-mayhem download forallsecure/lighttpd -o /tmp/lighttpd
+mayhem download tutorial/lighttpd -o /tmp/lighttpd
 ```
 
 **Tip**: You can use the `mayhem sync` command to syncronize
