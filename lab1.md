@@ -24,7 +24,7 @@ Create a new account by navigating to
 The `mayhem` CLI authenticates to the Mayhem server using an API token. The API
 token  is available three places:
 
-   * The [download screen](https://training.forallsecure.com/-/installation**
+   * The [download screen](https://training.forallsecure.com/-/installation)
    * In your profile settings, located in the top-left under your username, then
      "Settings", then "API Tokens".
    * Under the "?" help window. 
@@ -35,6 +35,9 @@ Once you get your API token, log in the CLI:
 mayhem login https://training.forallsecure.com/ <YOUR API KEY>
 ```
 
+![API Token Locations](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/api-token-locations.png)
+
+
 ## Create a new Project
 
 Let's reproduce an exploit for [lighttpd](https://www.lighttpd.net/)! (version
@@ -42,7 +45,8 @@ Let's reproduce an exploit for [lighttpd](https://www.lighttpd.net/)! (version
 
    * Create a new project by clicking the "plus" icon at the top of the screen.
 ![Create new project](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/create-new-project.png)
-   * Select Mayhem docker registry, and the `forallsecure/tutorial/lighttpd`
+   * Select the Mayhem docker registry, and the play icon next to the
+   `forallsecure/tutorial/lighttpd` version 1.14.15
    image. 
 ![Choose dockerhub
    image](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/project-from-registry.png)
@@ -56,6 +60,11 @@ There are two tabs of analysis options: Basic and Advanced. We will be configuri
       in-depth analysis, and requires `libc6-dbg` installed.
    3. Under **Advanced**, click the **Tasks** button, and enable **Code
       Coverage**.
+
+![Basic configuration](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/basic-configuration-options.png)
+
+![Advanced configuration](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/advanced-configuration-options.png)
+
    
 ## Click start run!
 
@@ -63,15 +72,13 @@ Click the start run button at the bottom of your screen to begin analysis!
 
 ![Click start run](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/start-run-button.png)
 
-## Congratulations
-
-
+Congratulations!
 
 You've just:
   * Learned how to log into the CLI.
   * Learned how to start a new Mayhem analysis job.
   * Found your first exploitable bug using Mayhem!
   
-Congratulations!
+
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
