@@ -44,12 +44,12 @@ nuts and bolts. We recommend you take some time to read the Docker
 
 To run the vulnerable image:
 ```
-docker run --rm -i -d -p 8080:80 training.forallsecure.com:5000/forallsecure/tutorial/lighttpd
+docker run --rm -i -d -p 8080:80 training.forallsecure.com:5000/forallsecure/tutorial
 ```
 
 This command:
 
-  * Runs the docker image `training.forallsecure.com:5000/forallsecure/tutorial/lighttpd`
+  * Runs the docker image `training.forallsecure.com:5000/forallsecure/tutorial`
   * The `-p` binds port 80 in the docker image to localhost port 8080
   * The `--rm` removes any temporary state when the
     container exits.
@@ -85,11 +85,11 @@ of it like connecting to a remote machine.  You can also mount the corpus
   * The `-it` option runs docker in interactive mode with a user-given
     command. For example:
 ```
-docker  run -it training.forallsecure.com:5000/forallsecure/tutorial/lighttpd bash
+docker  run -it training.forallsecure.com:5000/forallsecure/tutorial bash
 ```
   * The `-v` flag will mount the local file system. For example:
 ```
-docker  run -v `pwd`/corpus:/mnt -it training.forallsecure.com:5000/forallsecure/tutorial/lighttpd bash
+docker  run -v `pwd`/corpus:/mnt -it training.forallsecure.com:5000/forallsecure/tutorial bash
 ```
 
 
