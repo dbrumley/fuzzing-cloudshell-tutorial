@@ -73,8 +73,8 @@ Click the start run button at the bottom of your screen to begin analysis!
 ![Click start
 run](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/start-run-button.png)
 
-The run will take about 2 minutes to complete: 30 seconds for analysis, and 90
-seconds for post-analysis processing to finish.)
+The run may take a few minutes to complete, as analysis and post-analysis
+processing need to finish.
 
 Congratulations!
 
